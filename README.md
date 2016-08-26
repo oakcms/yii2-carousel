@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yii2-carousel/yii2-carousel "*"
+php composer.phar require --prefer-dist oakcms/yii2-carousel "*"
 ```
 
 or add
 
 ```
-"yii2-carousel/yii2-carousel": "*"
+"oakcms/yii2-carousel": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,5 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \oakcms\yii2carousel\AutoloadExample::widget(); ?>```
+<?= \oakcms\yii2carousel\AutoloadExample::widget(); ?>
+```
